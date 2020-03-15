@@ -2,7 +2,7 @@ import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 export class BaseApi {
-  private baseUrl = 'http://185.22.60.64:3000/';
+  private baseUrl = 'http://192.168.56.1:3000/';
 
   constructor(public http: Http) {
   }
